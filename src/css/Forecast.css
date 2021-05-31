@@ -1,0 +1,44 @@
+.forecast {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 30px;
+    justify-content: space-between;
+    margin: 50px 0 25px;
+}
+
+.day {
+    /*liczba dni tygodnia*/
+    flex-basis: calc(90%/7);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: .35s;
+    padding: 5px 5px 10px;
+    text-align: center;
+}
+
+.day h4 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.day p {
+    margin: 1rem 0;
+}
+
+.day span {
+    margin: 0 12px;
+}
+
+.day:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.day:hover i {
+    font-weight: bold;
+}
+
+.day .description {
+    margin: 0.5rem 0 0;
+    font-size: 14px;
+}

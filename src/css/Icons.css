@@ -1,0 +1,19 @@
+.day i {
+    padding: 20px;
+    transition: .35s;
+    font-size: 50px;
+}
+
+.current-temp i {
+    margin-right: 60px;
+    font-size: 80px;
+    transform: translateY(25px);
+}
+
+.wi-moon-new {
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}

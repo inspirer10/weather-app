@@ -1,0 +1,140 @@
+@media screen and (max-width: 1250px) {
+    .day {
+        flex-basis: calc(95%/7);
+        margin: 0 10px 25px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .city {
+        margin-top: 50px;
+    }
+    .day {
+        margin-top: 25px;
+        flex-basis: 32%;
+    }
+    .day:last-of-type {
+        flex-basis: 35%;
+        margin: 25px auto;
+    }
+    .forecast {
+        padding: 0 75px;
+        justify-content: space-evenly;
+    }
+}
+
+@media(max-width: 1000px) {
+    .day {
+        flex-basis: 35%;
+    }
+    .forecast {
+        padding: 0 50px;
+        justify-content: space-around;
+    }
+}
+
+@media(max-width: 900px) {
+    .day {
+        flex-basis: 37.5%;
+    }
+    .day:last-of-type {
+        flex-basis: 37.5%;
+    }
+}
+
+@media(max-width: 768px) {
+     :root {
+        font-size: 15px;
+    }
+    .city {
+        color: white;
+        padding-left: 0;
+    }
+    .day {
+        flex-basis: 80%;
+        margin: 15px auto;
+    }
+    .day:last-of-type {
+        margin-bottom: 50px;
+        flex-basis: 80%;
+    }
+    .day h4 {
+        font-size: 25px;
+    }
+    .day i {
+        font-size: 56px;
+    }
+    .city span {
+        font-weight: normal;
+    }
+    .day span {
+        font-size: 24px;
+    }
+    .current-forecast h2 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 4.2rem;
+        letter-spacing: 1px;
+    }
+    .city p {
+        margin: 0 auto;
+    }
+    .wi-solar-eclipse:before {
+        position: absolute;
+        top: 22%;
+        right: 0;
+        left: 3%;
+    }
+    .current-others>* {
+        flex-basis: 100%;
+        padding: 3% 0;
+    }
+    input {
+        min-width: 50vw;
+    }
+    .current-temp,
+    .current-others {
+        flex-basis: 100%;
+        margin-top: 50px;
+    }
+    .forecast {
+        padding: 0 15px;
+    }
+    .current-others {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 85%;
+        margin: 5rem auto 0;
+        flex-wrap: nowrap;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    .current-temp i {
+        transform: translateY(15px);
+    }
+    .current-others p {
+        font-weight: normal;
+        font-size: 18px;
+        margin: 5px 0 0;
+    }
+    .current-others h3 {
+        margin: 0;
+        font-size: 2rem;
+        font-weight: normal;
+    }
+    .day {
+        text-align: center;
+    }
+    .day .description {
+        margin: 0.5rem 0;
+        font-size: 18px;
+    }
+}
+
+@media(max-width:576px) {
+     :root {
+        font-size: 14px;
+    }
+    .current-temp {
+        margin-bottom: 30px;
+    }
+}

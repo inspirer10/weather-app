@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    position: relative;
+    color: white;
+    scroll-behavior: smooth;
+    background: url(../img/img.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100vh;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: blue #999;
+}
+
+*::-webkit-scrollbar {
+    width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+    background-image: linear-gradient(#366, #111);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(#699, #366);
+    border-radius: 20px;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+
+.hide {
+    opacity: 0;
+    transition: opacity .35s;
+}
+
+.display {
+    display: none;
+}
